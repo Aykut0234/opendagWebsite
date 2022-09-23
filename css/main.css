@@ -87,20 +87,126 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+   .contact{
+    font-size: 20px;
+
+    margin-top: 30px;
+   }
+
+    
+
+
+   }
+
+   .steven{
+
+
+
+
+    border-bottom: 3px solid black;
+   }
+
+   .bart{
+
+    border-bottom: 3px solid black;
+   }
+   .elton{
+
+    border-bottom: 3px solid black;
+   }
+
+   .wicher{
+
+    border-bottom: 3px solid black;
+
+   }
+   
+
+
+   body{
+    background-color: #C9B79C;
+   }
+
+   .locatie p{
+
+       margin-left: 120px;
+
+
+   }
+
+   .locatie img{
+    width: 80%;
+    margin-left: 50px;
+    border-radius: 30px;
+
+   }
    header{
+
     background-color: darkblue;
     padding: 2px;
     border-bottom: 3px solid black;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    letter-spacing: 3px;
+
+    font-family: 'Montserrat', sans-serif;
     
 
   }
 
+  header a{
+    display: flex;
+    margin-top: 35px;
+    margin-right: 20px;
+    color: black;
+    
+
+    background-color: #C9B79C;
+    height: 30px;
+    width: 120px;
+
+    align-content: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 3px;
+    border-radius: 4px;
+
+
+
+    font-family: 'Montserrat', sans-serif;
+
+   
+
+  }
+
+  a:hover {
+    background-color: gray;
+  }
+
+  header h1{
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
 
   h1{
+
     color: lightgreen;
     background-color: darkblue;
     padding: 2px;
     font-family: sans-serif;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+
   }
 
   .container h1{
@@ -108,13 +214,18 @@ textarea {
     background-color: darkblue;
     padding: 2px;
     border: 5px solid black;
-    
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
 
   }
 
   p{
    
     font: 20px bolder;
+    font-family: 'Montserrat', sans-serif;
+    
   }
 
   footer{
@@ -122,6 +233,7 @@ textarea {
   color: lightgreen;
   border: solid black 2px;
   height: 50px;
+  font-family: 'Montserrat', sans-serif;
 
   
 
@@ -129,6 +241,8 @@ textarea {
 
 .column p{
   font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 
@@ -155,6 +269,8 @@ textarea {
 
 img{
   width: 200px;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 
