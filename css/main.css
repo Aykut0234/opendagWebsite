@@ -305,11 +305,11 @@ label{
   display: block;
 }
  
-#check:checked ~ label{
+#check:checked ~ #label{
   visibility: hidden;
 }
 
-#check:checked ~ label:after{
+#check:checked ~ #label:after{
   content: 'Minder lezen';
   display: block;
   visibility: visible;
@@ -333,11 +333,11 @@ label{
   display: block;
 }
  
-#check1:checked ~ label{
+#check1:checked ~ #label1{
   visibility: hidden;
 }
 
-#check1:checked ~ label:after{
+#check1:checked ~ #label1:after{
   content: 'Minder lezen';
   display: block;
   visibility: visible;
@@ -361,11 +361,11 @@ label{
   display: block;
 }
  
-#check2:checked ~ label{
+#check2:checked ~ #label2{
   visibility: hidden;
 }
 
-#check2:checked ~ label:after{
+#check2:checked ~ #label2:after{
   content: 'Minder lezen';
   display: block;
   visibility: visible;
@@ -389,15 +389,54 @@ label{
   display: block;
 }
  
-#check3:checked ~ label{
+#check3:checked ~ #label3{
   visibility: hidden;
 }
 
-#check3:checked ~ label:after{
+#check3:checked ~ #label3:after{
   content: 'Minder lezen';
   display: block;
   visibility: visible;
 }
+
+@media only screen and (max-width: 768px){
+
+  header a{
+
+    margin-top: 100px;
+
+    margin-left: 20px;
+
+    display: block;
+
+  }
+
+  header{
+    width: 600px;
+
+  }
+  .locatie img{
+
+    display: none;
+
+  }
+
+  .locatie p{
+    justify-content: left;
+    margin-left: -10px;
+  }
+
+  body{
+    letter-spacing: -1px;
+  }
+
+  footer{
+    width: 600px;
+  }
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
